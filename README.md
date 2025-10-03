@@ -20,7 +20,7 @@
 python parser.py <config.json>
 ```
 ## Вывод:
-Файл в текущей директории
+Файлы в текущей директории
 - sonarqube_issues_report.xlsx
 - sonarqube_comprehensive_report.html
 - response_output.json
@@ -36,5 +36,6 @@ python parser.py <config.json>
 ```bash
 pip install -r requirements.txt
 ```
+
 
 
