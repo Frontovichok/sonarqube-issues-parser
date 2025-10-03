@@ -1,0 +1,8 @@
+{
+    "url": "https://sonarqube.dev",
+	"project_id": "id",
+	"project_name": "name",
+	"project_version": "verion",
+	"branch": "branch",
+    "JWT-SESSION": "JWT-session"
+}
