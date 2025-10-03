@@ -20,9 +20,10 @@
 python parser.py <config.json>
 ```
 ## Вывод:
-sonarqube_issues_report.xlsx
-sonarqube_comprehensive_report.html
-response_output.json
+Файл в текущей директории
+- sonarqube_issues_report.xlsx
+- sonarqube_comprehensive_report.html
+- response_output.json
 
 ##
 Для запуска необходимо наличие дополнительных библиотек:
@@ -35,4 +36,5 @@ response_output.json
 ```bash
 pip install -r requirements.txt
 ```
+
 
