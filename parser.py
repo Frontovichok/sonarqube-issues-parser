@@ -1327,13 +1327,13 @@ def main():
             if not issues_on_page or page * int(issues_per_page) >= total_issues:
                 break  # Exit loop if no more issues are returned
 
-            page += 1
-
-            if page == 21:
+            if total_issues >= 10000:
                 print(
-                    f"Reached page limit of 10000 issues from SonarQube API. Try to filter the issues to gen less than 10000 issues."
+                    f"Reached limit of 10000 issues from SonarQube API. Try to filter the issues to get less than 10000 issues."
                 )
                 sys.exit(1)
+
+            page += 1
 
         # Fetch source code snippets for issues with textRange
         all_issues = fetch_issue_snippets(all_issues, url, cookies, headers)
